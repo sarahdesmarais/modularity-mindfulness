@@ -11,7 +11,38 @@ i {
   border-color: #8bc9d9;
 }
 
+.btn-ghost:hover {
+  color: #000;
+  background-color: #0084a6;
+  border-color: #005e76
+}
+
 .quote {
-  border-top: solid 1px #e2e2e2;
-  border-bottom: solid 1px #e2e2e2;
+  border-top: solid 2px #e2e2e2;
+  border-bottom: solid 2px #e2e2e2;
+}
+
+a {
+  text-decoration: none;
+  color: #005e76;
+  border-bottom: 2px solid #8bc9d9;
+}
+
+a:hover {
+  color: #000;
+}
+
+.border {
+  border-top: solid 2px #e2e2e2;
+}
+
+@media only screen and (min-width: 60em) {
+
+  .header {
+    text-align: left;
+  }
+
+  .align-right {
+    text-align: right;
+  }
 }
