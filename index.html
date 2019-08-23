@@ -13,14 +13,19 @@
 </head>
 <body>
 
-  <header class="header text-center">
+  <ul class="skip-links">
+    <li><a href="#main">Jump to main content</a></li>
+    <li><a href="#nav">Jump to navigation</a><li>
+  </ul>
+
+  <header class="header text-center" role="banner">
     <div class="grid grid-middle">
       <div class="unit xs-1 s-1 m-1 l-1-2">
         <i lang="ja" class="yotta not-italic push-0">枯山水</i>
         <h1 class="mega">Rock Garden</h1>
       </div>
       <div class="unit xs-1 s-1 m-1 l-1-2">
-        <nav class="align-right">
+        <nav class="align-right" role="navigation" id="nav">
           <ul class="list-group-inline">
             <li><a href="#" class="mega push-r-1-2">Viewing</a></li>
             <li><a href="#" class="mega push-r-1-2">Gravel</a></li>
@@ -36,7 +41,7 @@
     </div>
   </header>
 
-  <main>
+  <main role="main" id="main">
     <section class="max-length quote text-center push-2 island">
       <i lang="ja" class="not-italic yotta">自然の親密な本質を模倣し、人生の真の意味を発見する。</i>
       <p class="mega push-0">Imitate the intimate essence of nature & discover the true meaning of life.</p>
@@ -93,7 +98,7 @@
     </section>
   </main>
 
-  <footer>
+  <footer role="contentinfo">
     <div class="border island-1-2">
       <small class="micro">© 794 Heian Period</small>
     </div>
