@@ -24,6 +24,7 @@ i {
 
 a {
   text-decoration: none;
+  display: block;
   color: #005e76;
   border-bottom: 2px solid #8bc9d9;
 }
@@ -34,6 +35,10 @@ a:hover {
 
 .border {
   border-top: solid 2px #e2e2e2;
+}
+
+footer {
+  color: #666;
 }
 
 @media only screen and (min-width: 60em) {
